@@ -8,7 +8,10 @@
 
 var numbers = [1, 2, 3]; // Don't change this array literal declaration
 
-/* 
+numbers.push(4);
+numbers.pop();   /*erases last one*/
+
+/*  numbers.shift  removes first  numbers.unshift   add at the beginning
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */
 console.log(numbers);
